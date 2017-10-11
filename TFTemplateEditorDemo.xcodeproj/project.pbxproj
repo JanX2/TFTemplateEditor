@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3D5AA4151885B585000EC40A /* TFTemplateEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5AA4101885B572000EC40A /* TFTemplateEditor.framework */; };
-		3DA3FD7B1F8E16130063E9EF /* TFCodeEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA3FD771F8E16020063E9EF /* TFCodeEditor.framework */; };
 		E215AAC91644449000C306C9 /* objc.plist in Resources */ = {isa = PBXBuildFile; fileRef = E215AAC81644449000C306C9 /* objc.plist */; };
 		E2EB996C161B69B0009DAB0A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EB996B161B69B0009DAB0A /* Cocoa.framework */; };
 		E2EB9976161B69B0009DAB0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2EB9974161B69B0009DAB0A /* InfoPlist.strings */; };
@@ -41,25 +40,10 @@
 			remoteGlobalIDString = E215AB091649417800C306C9;
 			remoteInfo = TFTemplateEditor;
 		};
-		3DA3FD761F8E16020063E9EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DA3FD721F8E16020063E9EF /* TFCodeEditor.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E261FDA4164AC6DD00F7FDC9;
-			remoteInfo = TFCodeEditor;
-		};
-		3DA3FD791F8E160F0063E9EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DA3FD721F8E16020063E9EF /* TFCodeEditor.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E261FDA3164AC6DD00F7FDC9;
-			remoteInfo = TFCodeEditor;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3D5AA40A1885B56D000EC40A /* TFTemplateEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TFTemplateEditor.xcodeproj; path = TFTemplateEditor/TFTemplateEditor.xcodeproj; sourceTree = "<group>"; };
-		3DA3FD721F8E16020063E9EF /* TFCodeEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TFCodeEditor.xcodeproj; path = TFCodeEditor/TFCodeEditor.xcodeproj; sourceTree = "<group>"; };
 		E215AAC81644449000C306C9 /* objc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objc.plist; sourceTree = "<group>"; };
 		E2EB9967161B69B0009DAB0A /* TFTemplateEditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFTemplateEditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EB996B161B69B0009DAB0A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -82,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA3FD7B1F8E16130063E9EF /* TFCodeEditor.framework in Frameworks */,
 				3D5AA4151885B585000EC40A /* TFTemplateEditor.framework in Frameworks */,
 				E2EB996C161B69B0009DAB0A /* Cocoa.framework in Frameworks */,
 			);
@@ -96,14 +79,6 @@
 			children = (
 				3D5AA4101885B572000EC40A /* TFTemplateEditor.framework */,
 				3D5AA4121885B572000EC40A /* TFTemplateEditorTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3DA3FD731F8E16020063E9EF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3DA3FD771F8E16020063E9EF /* TFCodeEditor.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,7 +103,6 @@
 		E2EB996A161B69B0009DAB0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DA3FD721F8E16020063E9EF /* TFCodeEditor.xcodeproj */,
 				3D5AA40A1885B56D000EC40A /* TFTemplateEditor.xcodeproj */,
 				E2EB996B161B69B0009DAB0A /* Cocoa.framework */,
 				E2EB996D161B69B0009DAB0A /* Other Frameworks */,
@@ -185,7 +159,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				3DA3FD7A1F8E160F0063E9EF /* PBXTargetDependency */,
 				3D5AA4141885B57D000EC40A /* PBXTargetDependency */,
 			);
 			name = TFTemplateEditorDemo;
@@ -215,10 +188,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 3DA3FD731F8E16020063E9EF /* Products */;
-					ProjectRef = 3DA3FD721F8E16020063E9EF /* TFCodeEditor.xcodeproj */;
-				},
-				{
 					ProductGroup = 3D5AA40B1885B56D000EC40A /* Products */;
 					ProjectRef = 3D5AA40A1885B56D000EC40A /* TFTemplateEditor.xcodeproj */;
 				},
@@ -243,13 +212,6 @@
 			fileType = wrapper.cfbundle;
 			path = TFTemplateEditorTests.octest;
 			remoteRef = 3D5AA4111885B572000EC40A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3DA3FD771F8E16020063E9EF /* TFCodeEditor.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = TFCodeEditor.framework;
-			remoteRef = 3DA3FD761F8E16020063E9EF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -286,11 +248,6 @@
 			isa = PBXTargetDependency;
 			name = TFTemplateEditor;
 			targetProxy = 3D5AA4131885B57D000EC40A /* PBXContainerItemProxy */;
-		};
-		3DA3FD7A1F8E160F0063E9EF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TFCodeEditor;
-			targetProxy = 3DA3FD791F8E160F0063E9EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
