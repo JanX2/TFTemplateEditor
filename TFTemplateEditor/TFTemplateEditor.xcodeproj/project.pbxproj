@@ -10,7 +10,6 @@
 		E215AB0E1649417800C306C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E215AB0D1649417800C306C9 /* Cocoa.framework */; };
 		E215AB181649417800C306C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E215AB161649417800C306C9 /* InfoPlist.strings */; };
 		E215AB1C1649417800C306C9 /* TFTemplateEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = E215AB1B1649417800C306C9 /* TFTemplateEditor.m */; };
-		E215AB241649417900C306C9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E215AB231649417900C306C9 /* SenTestingKit.framework */; };
 		E215AB251649417900C306C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E215AB0D1649417800C306C9 /* Cocoa.framework */; };
 		E215AB281649417900C306C9 /* TFTemplateEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E215AB0A1649417800C306C9 /* TFTemplateEditor.framework */; };
 		E215AB2E1649417900C306C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E215AB2C1649417900C306C9 /* InfoPlist.strings */; };
@@ -19,7 +18,6 @@
 		E215AB51164941C400C306C9 /* TFTextElementAttachmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E215AB3F164941C400C306C9 /* TFTextElementAttachmentCell.m */; };
 		E215AB5E164941C400C306C9 /* NSMutableAttributedString+TokenFields.h in Headers */ = {isa = PBXBuildFile; fileRef = E215AB4C164941C400C306C9 /* NSMutableAttributedString+TokenFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E215AB5F164941C400C306C9 /* NSMutableAttributedString+TokenFields.m in Sources */ = {isa = PBXBuildFile; fileRef = E215AB4D164941C400C306C9 /* NSMutableAttributedString+TokenFields.m */; };
-		E261FDD1164AC6FB00F7FDC9 /* TFCodeEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E261FDD0164AC6FB00F7FDC9 /* TFCodeEditor.framework */; };
 		E261FDD4164AC71300F7FDC9 /* TFTemplateCodeTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E261FDD2164AC71300F7FDC9 /* TFTemplateCodeTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E261FDD5164AC71300F7FDC9 /* TFTemplateCodeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E261FDD3164AC71300F7FDC9 /* TFTemplateCodeTextView.m */; };
 		E261FDD7164AC87300F7FDC9 /* TFTemplateEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = E215AB1A1649417800C306C9 /* TFTemplateEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,7 +47,6 @@
 		E215AB1A1649417800C306C9 /* TFTemplateEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTemplateEditor.h; sourceTree = "<group>"; };
 		E215AB1B1649417800C306C9 /* TFTemplateEditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTemplateEditor.m; sourceTree = "<group>"; };
 		E215AB221649417900C306C9 /* TFTemplateEditorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFTemplateEditorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E215AB231649417900C306C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E215AB2B1649417900C306C9 /* TFTemplateEditorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFTemplateEditorTests-Info.plist"; sourceTree = "<group>"; };
 		E215AB2D1649417900C306C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E215AB2F1649417900C306C9 /* TFTemplateEditorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTemplateEditorTests.h; sourceTree = "<group>"; };
@@ -58,7 +55,6 @@
 		E215AB3F164941C400C306C9 /* TFTextElementAttachmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTextElementAttachmentCell.m; sourceTree = "<group>"; };
 		E215AB4C164941C400C306C9 /* NSMutableAttributedString+TokenFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TokenFields.h"; sourceTree = "<group>"; };
 		E215AB4D164941C400C306C9 /* NSMutableAttributedString+TokenFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TokenFields.m"; sourceTree = "<group>"; };
-		E261FDD0164AC6FB00F7FDC9 /* TFCodeEditor.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = TFCodeEditor.framework; path = ../TFCodeEditor/build/Release/TFCodeEditor.framework; sourceTree = "<group>"; };
 		E261FDD2164AC71300F7FDC9 /* TFTemplateCodeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTemplateCodeTextView.h; sourceTree = "<group>"; };
 		E261FDD3164AC71300F7FDC9 /* TFTemplateCodeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTemplateCodeTextView.m; sourceTree = "<group>"; };
 		E261FDDC164AF30800F7FDC9 /* NSAttributedString+TokenFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+TokenFields.h"; sourceTree = "<group>"; };
@@ -70,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E261FDD1164AC6FB00F7FDC9 /* TFCodeEditor.framework in Frameworks */,
 				E215AB0E1649417800C306C9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E215AB241649417900C306C9 /* SenTestingKit.framework in Frameworks */,
 				E215AB251649417900C306C9 /* Cocoa.framework in Frameworks */,
 				E215AB281649417900C306C9 /* TFTemplateEditor.framework in Frameworks */,
 			);
@@ -110,9 +104,7 @@
 		E215AB0C1649417800C306C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E261FDD0164AC6FB00F7FDC9 /* TFCodeEditor.framework */,
 				E215AB0D1649417800C306C9 /* Cocoa.framework */,
-				E215AB231649417900C306C9 /* SenTestingKit.framework */,
 				E215AB0F1649417800C306C9 /* Other Frameworks */,
 			);
 			name = Frameworks;
