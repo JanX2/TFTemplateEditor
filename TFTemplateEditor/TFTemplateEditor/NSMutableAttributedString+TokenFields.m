@@ -21,7 +21,7 @@
 																						error:&error];
 
 		NSString *documentAsString = self.string;
-		NSLog(@"Orig Length %ld", documentAsString.length);
+		//NSLog(@"Orig Length %ld", documentAsString.length);
 
 		NSAssert(range.location + range.length <= documentAsString.length, @"Range is out side string (%ld > %ld)", range.location + range.length, documentAsString.length);
 
@@ -50,7 +50,7 @@
 		}];
 
 		documentAsString = self.string;
-		NSLog(@"New Length %ld", documentAsString.length);
+		//NSLog(@"New Length %ld", documentAsString.length);
 
 		NSRegularExpression *printMatch = [NSRegularExpression regularExpressionWithPattern:@"\\{\\{[\\w\\d\\s.-|:\"']*\\}\\}"
 																					options:NSRegularExpressionCaseInsensitive|NSRegularExpressionDotMatchesLineSeparators
