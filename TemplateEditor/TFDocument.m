@@ -8,6 +8,7 @@
 
 #import "TFDocument.h"
 #import <TFTemplateEditor/TFTemplateEditor.h>
+#import <TFTemplateEditor/NSMutableAttributedString+TokenFields.h>
 
 @interface TFDocument ()
 

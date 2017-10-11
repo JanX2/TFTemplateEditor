@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5AA4151885B585000EC40A /* TFTemplateEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5AA4101885B572000EC40A /* TFTemplateEditor.framework */; };
+		3DA3FD7B1F8E16130063E9EF /* TFCodeEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA3FD771F8E16020063E9EF /* TFCodeEditor.framework */; };
 		E215AAC91644449000C306C9 /* objc.plist in Resources */ = {isa = PBXBuildFile; fileRef = E215AAC81644449000C306C9 /* objc.plist */; };
-		E215AB3B164941A100C306C9 /* TFTemplateEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E215AB3A164941A100C306C9 /* TFTemplateEditor.framework */; };
 		E2EB996C161B69B0009DAB0A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EB996B161B69B0009DAB0A /* Cocoa.framework */; };
 		E2EB9976161B69B0009DAB0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2EB9974161B69B0009DAB0A /* InfoPlist.strings */; };
 		E2EB9978161B69B0009DAB0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EB9977161B69B0009DAB0A /* main.m */; };
@@ -18,9 +19,48 @@
 		E2EB9985161B69B0009DAB0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2EB9983161B69B0009DAB0A /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3D5AA40F1885B572000EC40A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5AA40A1885B56D000EC40A /* TFTemplateEditor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E215AB0A1649417800C306C9;
+			remoteInfo = TFTemplateEditor;
+		};
+		3D5AA4111885B572000EC40A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5AA40A1885B56D000EC40A /* TFTemplateEditor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E215AB221649417900C306C9;
+			remoteInfo = TFTemplateEditorTests;
+		};
+		3D5AA4131885B57D000EC40A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5AA40A1885B56D000EC40A /* TFTemplateEditor.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E215AB091649417800C306C9;
+			remoteInfo = TFTemplateEditor;
+		};
+		3DA3FD761F8E16020063E9EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA3FD721F8E16020063E9EF /* TFCodeEditor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E261FDA4164AC6DD00F7FDC9;
+			remoteInfo = TFCodeEditor;
+		};
+		3DA3FD791F8E160F0063E9EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA3FD721F8E16020063E9EF /* TFCodeEditor.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E261FDA3164AC6DD00F7FDC9;
+			remoteInfo = TFCodeEditor;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3D5AA40A1885B56D000EC40A /* TFTemplateEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TFTemplateEditor.xcodeproj; path = TFTemplateEditor/TFTemplateEditor.xcodeproj; sourceTree = "<group>"; };
+		3DA3FD721F8E16020063E9EF /* TFCodeEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TFCodeEditor.xcodeproj; path = TFCodeEditor/TFCodeEditor.xcodeproj; sourceTree = "<group>"; };
 		E215AAC81644449000C306C9 /* objc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objc.plist; sourceTree = "<group>"; };
-		E215AB3A164941A100C306C9 /* TFTemplateEditor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TFTemplateEditor.framework; path = TFTemplateEditor/build/Release/TFTemplateEditor.framework; sourceTree = "<group>"; };
 		E2EB9967161B69B0009DAB0A /* TFTemplateEditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFTemplateEditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EB996B161B69B0009DAB0A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E2EB996E161B69B0009DAB0A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -42,7 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E215AB3B164941A100C306C9 /* TFTemplateEditor.framework in Frameworks */,
+				3DA3FD7B1F8E16130063E9EF /* TFCodeEditor.framework in Frameworks */,
+				3D5AA4151885B585000EC40A /* TFTemplateEditor.framework in Frameworks */,
 				E2EB996C161B69B0009DAB0A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D5AA40B1885B56D000EC40A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5AA4101885B572000EC40A /* TFTemplateEditor.framework */,
+				3D5AA4121885B572000EC40A /* TFTemplateEditorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA3FD731F8E16020063E9EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA3FD771F8E16020063E9EF /* TFCodeEditor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E2EB995C161B69B0009DAB0A = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +128,8 @@
 		E2EB996A161B69B0009DAB0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E215AB3A164941A100C306C9 /* TFTemplateEditor.framework */,
+				3DA3FD721F8E16020063E9EF /* TFCodeEditor.xcodeproj */,
+				3D5AA40A1885B56D000EC40A /* TFTemplateEditor.xcodeproj */,
 				E2EB996B161B69B0009DAB0A /* Cocoa.framework */,
 				E2EB996D161B69B0009DAB0A /* Other Frameworks */,
 			);
@@ -126,6 +185,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				3DA3FD7A1F8E160F0063E9EF /* PBXTargetDependency */,
+				3D5AA4141885B57D000EC40A /* PBXTargetDependency */,
 			);
 			name = TFTemplateEditorDemo;
 			productName = TemplateEditor;
@@ -152,12 +213,46 @@
 			mainGroup = E2EB995C161B69B0009DAB0A;
 			productRefGroup = E2EB9968161B69B0009DAB0A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3DA3FD731F8E16020063E9EF /* Products */;
+					ProjectRef = 3DA3FD721F8E16020063E9EF /* TFCodeEditor.xcodeproj */;
+				},
+				{
+					ProductGroup = 3D5AA40B1885B56D000EC40A /* Products */;
+					ProjectRef = 3D5AA40A1885B56D000EC40A /* TFTemplateEditor.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E2EB9966161B69B0009DAB0A /* TFTemplateEditorDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3D5AA4101885B572000EC40A /* TFTemplateEditor.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TFTemplateEditor.framework;
+			remoteRef = 3D5AA40F1885B572000EC40A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D5AA4121885B572000EC40A /* TFTemplateEditorTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TFTemplateEditorTests.octest;
+			remoteRef = 3D5AA4111885B572000EC40A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DA3FD771F8E16020063E9EF /* TFCodeEditor.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TFCodeEditor.framework;
+			remoteRef = 3DA3FD761F8E16020063E9EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E2EB9965161B69B0009DAB0A /* Resources */ = {
@@ -185,6 +280,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D5AA4141885B57D000EC40A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TFTemplateEditor;
+			targetProxy = 3D5AA4131885B57D000EC40A /* PBXContainerItemProxy */;
+		};
+		3DA3FD7A1F8E160F0063E9EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TFCodeEditor;
+			targetProxy = 3DA3FD791F8E160F0063E9EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E2EB9974161B69B0009DAB0A /* InfoPlist.strings */ = {
