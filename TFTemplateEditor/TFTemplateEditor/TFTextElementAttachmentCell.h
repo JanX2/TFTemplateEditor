@@ -11,7 +11,7 @@
 @interface TFTextElementAttachmentCell : NSTextAttachmentCell
 
 @property (copy) NSString *element;
-@property (nonatomic, strong) NSFont *font;
+@property (strong) NSFont *font;
 
 @property (assign) BOOL conditionalBlock;
 @end

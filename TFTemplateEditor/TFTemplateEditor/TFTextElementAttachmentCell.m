@@ -37,6 +37,10 @@
 	return copy;
 }
 
+- (NSFont *)font {
+	return _font;
+}
+
 - (void)setFont:(NSFont *)font {
 	[self willChangeValueForKey:@"font"];
 	_font = font;
